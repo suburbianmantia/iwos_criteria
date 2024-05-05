@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 
 st.title("Simple implementation of revised IWOS criteria for sarcoid uveitis classification")
-st.markdown("Here is a free implementation of the sarcoid uveitis classification according to modified IWOS criteria (according to Mochizuki et al.)")
+st.markdown("Here is a free implementation of the sarcoid uveitis classification according to modified IWOS criteria (according to *Mochizuki M, Smith JR, Takase H for the International Workshop on Ocular Sarcoidosis Study Group, et alRevised criteria of International Workshop on Ocular Sarcoidosis (IWOS) for the diagnosis of ocular sarcoidosisBritish Journal of Ophthalmology 2019;103:1418-1422.*)")
 
 st.subheader("I. Other causes of granulomatous uveitis must be ruled out")
 st.subheader("II. Intraocular signs suggestive of ocular sarcoidosis")
