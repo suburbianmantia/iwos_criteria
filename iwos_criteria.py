@@ -56,11 +56,11 @@ st.subheader("Compatible uveitis")
 is_compatible = st.radio("Is uveitis compatible with sarcoidosis?", ["Yes", "No"])
 
 st.subheader("Classification")
-if histo == True and is_compatible =="Yes":
+if histo == "Yes" and is_compatible =="Yes":
     st.write("Definite OS")
-elif histo == False and systemic_signs_1 == True and number_sugg_signs>=2:
+elif histo == "No" and systemic_signs_1 == True and number_sugg_signs>=2:
     st.write("Presumed OS")
-elif histo == False and systemic_signs_1 == False and np.array([systemic_signs_1,
+elif histo == "No" and systemic_signs_1 == False and np.array([systemic_signs_1,
                                       systemic_signs_2,
                                       systemic_signs_3,
                                       systemic_signs_4,
