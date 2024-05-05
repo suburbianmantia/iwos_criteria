@@ -23,7 +23,6 @@ suggestive_signs = np.array([IO_signs_1,
                     IO_signs_6,
                     IO_signs_7], dtype = bool)
 number_sugg_signs = suggestive_signs.sum()
-st.write(number_sugg_signs)
 
 st.subheader("III. Systemic signs suggestive of systemic sarcoidosis")
 systemic_signs_1 = st.checkbox("Bilateral hilar lymphadenopathy on X-ray or CT-scan")
