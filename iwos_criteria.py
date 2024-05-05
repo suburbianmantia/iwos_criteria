@@ -51,7 +51,7 @@ number_syst_signs = suggestive_systemic_signs.sum()
 st.subheader("Histological granuloma")
 histo = st.radio("Was histology contributive?", ["Yes", "No"])
 
-st subheader("Compatible uveitis")
+st.subheader("Compatible uveitis")
 is_compatible = st.radio("Is uveitis compatible with sarcoidosis?", ["Yes", "No"])
 
 st.subheader("Classification")
